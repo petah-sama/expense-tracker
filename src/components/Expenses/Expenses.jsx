@@ -1,4 +1,5 @@
 import ExpenseItem from './ExpenseItem/ExpenseItem';
+import Card from '../UI/Card/Card';
 
 import './Expenses.css';
 
@@ -14,7 +15,7 @@ function Expenses(props) {
     );
   });
 
-  return <div className="expenses">{expenseItemList}</div>;
+  return <Card className="expenses">{expenseItemList}</Card>;
 }
 
 export default Expenses;
